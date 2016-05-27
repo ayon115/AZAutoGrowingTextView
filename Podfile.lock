@@ -1,0 +1,13 @@
+PODS:
+  - IQKeyboardManagerSwift (4.0.3)
+  - SZTextView (1.2.2)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SZTextView
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: b6883b720b0e76473692fdc80828442566e1075f
+  SZTextView: 3a81174dce0710a9ab069bc73a813e6df53b9c82
+
+COCOAPODS: 0.39.0
