@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDFE07C61CF897380003B609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE07C51CF897380003B609 /* AppDelegate.swift */; };
+		BDFE07C81CF897380003B609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE07C71CF897380003B609 /* ViewController.swift */; };
+		BDFE07CB1CF897380003B609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFE07C91CF897380003B609 /* Main.storyboard */; };
+		BDFE07CD1CF897380003B609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFE07CC1CF897380003B609 /* Assets.xcassets */; };
+		BDFE07D01CF897380003B609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFE07CE1CF897380003B609 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDFE07C21CF897380003B609 /* AZAutoGrowingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZAutoGrowingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFE07C51CF897380003B609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDFE07C71CF897380003B609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDFE07CA1CF897380003B609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFE07CC1CF897380003B609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFE07CF1CF897380003B609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFE07D11CF897380003B609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFE07BF1CF897370003B609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFE07B91CF897370003B609 = {
+			isa = PBXGroup;
+			children = (
+				BDFE07C41CF897380003B609 /* AZAutoGrowingTextView */,
+				BDFE07C31CF897380003B609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFE07C31CF897380003B609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFE07C21CF897380003B609 /* AZAutoGrowingTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFE07C41CF897380003B609 /* AZAutoGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BDFE07C51CF897380003B609 /* AppDelegate.swift */,
+				BDFE07C71CF897380003B609 /* ViewController.swift */,
+				BDFE07C91CF897380003B609 /* Main.storyboard */,
+				BDFE07CC1CF897380003B609 /* Assets.xcassets */,
+				BDFE07CE1CF897380003B609 /* LaunchScreen.storyboard */,
+				BDFE07D11CF897380003B609 /* Info.plist */,
+			);
+			path = AZAutoGrowingTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFE07C11CF897370003B609 /* AZAutoGrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFE07D41CF897380003B609 /* Build configuration list for PBXNativeTarget "AZAutoGrowingTextView" */;
+			buildPhases = (
+				BDFE07BE1CF897370003B609 /* Sources */,
+				BDFE07BF1CF897370003B609 /* Frameworks */,
+				BDFE07C01CF897370003B609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZAutoGrowingTextView;
+			productName = AZAutoGrowingTextView;
+			productReference = BDFE07C21CF897380003B609 /* AZAutoGrowingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFE07BA1CF897370003B609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dhrubok Infotech Services Ltd.";
+				TargetAttributes = {
+					BDFE07C11CF897370003B609 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDFE07BD1CF897370003B609 /* Build configuration list for PBXProject "AZAutoGrowingTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFE07B91CF897370003B609;
+			productRefGroup = BDFE07C31CF897380003B609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFE07C11CF897370003B609 /* AZAutoGrowingTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFE07C01CF897370003B609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFE07D01CF897380003B609 /* LaunchScreen.storyboard in Resources */,
+				BDFE07CD1CF897380003B609 /* Assets.xcassets in Resources */,
+				BDFE07CB1CF897380003B609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFE07BE1CF897370003B609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFE07C81CF897380003B609 /* ViewController.swift in Sources */,
+				BDFE07C61CF897380003B609 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDFE07C91CF897380003B609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFE07CA1CF897380003B609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFE07CE1CF897380003B609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFE07CF1CF897380003B609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFE07D21CF897380003B609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDFE07D31CF897380003B609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFE07D51CF897380003B609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZAutoGrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashiq.AZAutoGrowingTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDFE07D61CF897380003B609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZAutoGrowingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashiq.AZAutoGrowingTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFE07BD1CF897370003B609 /* Build configuration list for PBXProject "AZAutoGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFE07D21CF897380003B609 /* Debug */,
+				BDFE07D31CF897380003B609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFE07D41CF897380003B609 /* Build configuration list for PBXNativeTarget "AZAutoGrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFE07D51CF897380003B609 /* Debug */,
+				BDFE07D61CF897380003B609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFE07BA1CF897370003B609 /* Project object */;
+}
